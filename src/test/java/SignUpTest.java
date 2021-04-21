@@ -106,7 +106,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void SignUpNameNull() {
+    public void signUpNameNull() {
         //Открыть страницу https://sharelane.com/cgi-bin/register.py
         //Ввести любые 5 цифр (12345)
         //Нажать кнопку Continue
@@ -135,7 +135,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void SignUpAllFieldIsNull() {
+    public void signUpAllFieldIsNull() {
         //Открыть страницу https://sharelane.com/cgi-bin/register.py
         //Ввести любые 5 цифр (12345)
         //Нажать кнопку Continue
@@ -164,7 +164,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void SignUpAllFirstNameDigits() {
+    public void signUpAllFirstNameDigits() {
         //Открыть страницу https://sharelane.com/cgi-bin/register.py
         //Ввести любые 5 цифр (12345)
         //Нажать кнопку Continue
@@ -194,7 +194,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void SignUpPasswordAndConfirmPasswordNotTheSame() {
+    public void signUpPasswordAndConfirmPasswordNotTheSame() {
         //Открыть страницу https://sharelane.com/cgi-bin/register.py
         //Ввести любые 6 цифр (123456)
         //Нажать кнопку Continue
@@ -224,7 +224,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void SignUpPasswordNull() {
+    public void signUpPasswordNull() {
         //Открыть страницу https://sharelane.com/cgi-bin/register.py
         //Ввести любые 6 цифр (123456)
         //Нажать кнопку Continue
