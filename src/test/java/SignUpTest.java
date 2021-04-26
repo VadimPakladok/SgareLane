@@ -330,6 +330,7 @@ public class SignUpTest {
         driver.findElement(By.cssSelector("[value=Update]")).click();
         String massage = driver.findElement(By.cssSelector("[class=confirmation_message]")).getText();
         Assert.assertEquals(massage, "Cart Updated", "ERROR");
+        // закрыть браузер
         driver.quit();
     }
 }
