@@ -326,6 +326,7 @@ public class SignUpTest {
         driver.findElement(By.xpath(("//a[contains(@href, 'add_to_cart')]") )).click();
 //        driver.get("https://www.sharelane.com/cgi-bin/shopping_cart.py");
         driver.findElement(By.xpath(("//a[contains(@href, 'shopping_cart')]") )).click();
+        driver.findElement(By.name("q")).clear();
         driver.findElement(By.name("q")).sendKeys("19");
         driver.findElement(By.cssSelector("[value=Update]")).click();
         String massage = driver.findElement(By.cssSelector("[class=confirmation_message]")).getText();
